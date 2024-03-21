@@ -250,7 +250,16 @@ main {
     border: none;
     color: white;
     font-size: 32px;
+    transition: 0.3s ease;
+    
     background-color: #113054;
+}
+
+.discount_btn:hover {
+    background: none;
+    color: #113054;
+    border: 1px solid #113054;
+    transition: 0.3s ease;
 }
 
 .inside_inf {
