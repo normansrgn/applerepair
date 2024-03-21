@@ -101,7 +101,10 @@ main {
 
 .promo_section {
 
-    height: 490px;
+
+
+    height: 522px;
+    
 
 
     background-color: #CED8EB;
@@ -120,6 +123,8 @@ main {
     padding-left: 360px;
 
 }
+
+
 
 .discription_inf {
     display: flex;
@@ -166,7 +171,8 @@ main {
 }
 
 .device_tittle {
-    padding-top: 8px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 35px;
 }
@@ -201,4 +207,54 @@ main {
 
 .apple_watch {
     width: 342px;
+}
+
+.discount_section {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    background: center;
+    background-repeat: no-repeat;
+    background-image: url(../heder_img/Blend\ Group\ 2.svg);
+}
+
+.discount_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 903px;
+    height: 480px;
+    border-radius: 120px;
+    background-color: #e7ecf676;
+}
+
+.dicount_card_title {
+    font-size: 128px;
+    font-weight: 500;
+    color: #231154;
+}
+
+.discription_text {
+    /* padding-left: 68px;
+    padding-right: 68px; */
+    width: 849px;
+    font-size: 32px;
+    text-align: start;
+}
+
+.discount_btn {
+   align-items: start;
+    width: 347px;
+    height: 70px;
+    border-radius: 90px;
+    border: none;
+    color: white;
+    font-size: 32px;
+    background-color: #113054;
+}
+
+.inside_inf {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
