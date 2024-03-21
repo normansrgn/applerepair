@@ -69,11 +69,21 @@ main {
     color: white;
     border-radius: 90px;
     border: none;
+    transition: 0.3s ease;
+
     background-color: #113054;
 }
 
+.btn:hover {
+    background: none;
+    transition: 0.2s ease;
+    color: #113054;
+    border: 1px solid #113054;
+    cursor: pointer;
+}
+
 .navigation_list {
-   
+
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -91,8 +101,8 @@ main {
 
 .promo_section {
 
-   height: 490px;
-   
+    height: 490px;
+
 
     background-color: #CED8EB;
 }
@@ -102,7 +112,7 @@ main {
 }
 
 .promo_img {
-    position: absolute ;
+    position: absolute;
     padding: 10px;
 }
 
@@ -132,14 +142,24 @@ main {
     width: 297px;
     height: 63px;
     border-radius: 90px;
+    transition: 0.2s ease;
     border: none;
     color: white;
     font-size: 25px;
     background-color: #2d2d2d87;
 }
 
+.promo_btm:hover {
+    background: none;
+    transition: 0.2s ease;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
 .promo_image {
-    width: 100%;    display: flex;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -168,6 +188,7 @@ main {
 }
 
 .promo_cards {
+    flex-wrap: wrap;
     padding-top: 20px;
     display: flex;
     justify-content: center;
