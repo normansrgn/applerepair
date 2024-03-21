@@ -11,7 +11,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -30,7 +30,8 @@ main {
 }
 
 .header_high {
-    
+    border-bottom: 1px solid black;
+
 }
 
 .header_flex {
@@ -41,7 +42,8 @@ main {
 
 .logo {
     padding: 10px;
-    width: 160px;
+    width: 287px;
+    height: 107px;
 }
 
 .service_number {
@@ -55,13 +57,30 @@ main {
     font-size: 32px;
 }
 
+.service_numb {
+    font-size: 20px;
+}
+
 .btn {
-    width: 170px;
-    height: 40px;
+    width: 228px;
+    height: 58px;
     font-size: 19px;
     text-align: center;
     color: white;
     border-radius: 90px;
     border: none;
     background-color: #113054;
+}
+
+.navigation_list {
+    padding-top: 21px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navigation_item {
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
 }
