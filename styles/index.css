@@ -104,7 +104,7 @@ main {
 
 
     height: 522px;
-    
+
 
 
     background-color: #CED8EB;
@@ -229,6 +229,11 @@ main {
     background-color: #e7ecf676;
 }
 
+.card_discount {
+    display: flex;
+    justify-content: center;
+}
+
 .dicount_card_title {
     font-size: 128px;
     font-weight: 500;
@@ -267,4 +272,20 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.advantages {
+    padding-top: 145px;
+}
+
+
+.advantage_card_tittle {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.advantage_discription {
+    font-size: 19px;
+    font-weight: 300;
+    
 }
