@@ -223,9 +223,9 @@ main {
     flex-direction: column;
     align-items: center;
     width: 903px;
-    height: 480px;
+    height: 383px;
     max-width: 903px;
-    border-radius: 120px;
+    border-radius: 78px;
     background-color: #e7ecf676;
 }
 
@@ -288,4 +288,45 @@ main {
     font-size: 19px;
     font-weight: 300;
     
+}
+
+.quesion_card {
+    margin-top: 50px;
+    padding: 78px 43px 0 43px;
+    width: 1200px;
+    height: 600px;
+    border-radius: 90px;
+    background-color: #CED8EB;
+}
+
+.quesion_tittle {
+    margin-bottom: 20px;
+    font-size: 64px;
+    color: black;
+}
+
+.quesion_discription {
+    font-size: 32px;
+    width: 700px;
+    font-weight: 300;
+
+}
+
+.quesion_btn {
+    margin-top: 70px;
+    width: 437px;
+    height: 89px;
+    border-radius: 90px;
+    border: none;
+    font-size: 30px;
+    background-color: white;
+    transition: 0.3s ease;
+
+}
+
+.quesion_btn:hover {
+    cursor: pointer;
+    background-color: #113054;
+    color: white;
+    transition: 0.3s ease;
 }
