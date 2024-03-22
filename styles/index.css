@@ -352,3 +352,27 @@ main {
     font-size: 25px;
 
 }
+
+.footer_inf {
+    display: flex;
+}
+
+.foot_inf_section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.confedic {
+    font-size: 18px;
+    width: 450px;
+    font-weight: 500;
+}
+
+.footer_inf {
+    padding-top: 82px;
+}
+
+.foot_adres {
+    font-size: 24px;
+}
