@@ -355,6 +355,7 @@ main {
 
 .footer_inf {
     display: flex;
+    justify-content: space-between;
 }
 
 .foot_inf_section {
@@ -375,4 +376,40 @@ main {
 
 .foot_adres {
     font-size: 24px;
+}
+
+
+.rekvis_title {
+    font-size: 25px;
+    font-weight: 300;
+   
+}
+
+.rekvis {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rekvis_discription {
+    width: 287px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foot_inf_section span {
+    font-weight: 550;
+    font-size: 25px;
+}
+
+.clients_lis {
+    font-size: 21px;
+    font-weight: 450;
+
+}
+
+.client_discription {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
