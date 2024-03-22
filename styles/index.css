@@ -275,6 +275,7 @@ main {
 }
 
 .advantages {
+   
     padding-top: 145px;
 }
 
@@ -290,13 +291,20 @@ main {
 
 }
 
+.advantage_inf {
+    padding-bottom: 50px;
+    border-bottom: 1px solid;
+}
+
 .quesion_card {
+   
     display: flex;
     margin-top: 50px;
     padding: 78px 43px 0 43px;
     width: 1200px;
     height: 600px;
     border-radius: 90px;
+
     background-color: #CED8EB;
 }
 
