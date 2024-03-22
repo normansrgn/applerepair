@@ -1,6 +1,6 @@
 @import url(./bootstrap-grid.css);
 @import url(./reset.css);
-
+@import url(./index_adaptive.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -83,6 +83,7 @@ main {
 }
 
 .navigation_list {
+    flex-wrap: wrap;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -224,7 +225,7 @@ main {
     align-items: center;
     width: 903px;
     height: 383px;
-    max-width: 903px;
+    max-width: 100%;
     border-radius: 78px;
     background-color: #e7ecf676;
 }
@@ -287,6 +288,7 @@ main {
 
 .advantage_discription {
     font-size: 19px;
+    width: 300px;
     font-weight: 300;
 
 }
@@ -297,7 +299,7 @@ main {
 }
 
 .quesion_card {
-   
+   max-width: 100%;
     display: flex;
     margin-top: 50px;
     padding: 78px 43px 0 43px;
@@ -319,6 +321,14 @@ main {
     width: 700px;
     font-weight: 300;
 
+}
+.device_cards {
+    display: flex;
+    
+}
+
+.device_card {
+    width: 677px;
 }
 
 .quesion_btn {
@@ -371,6 +381,7 @@ main {
 }
 
 .footer_inf {
+    flex-wrap: wrap;
     padding-top: 82px;
 }
 
@@ -412,4 +423,97 @@ main {
     display: flex;
     flex-direction: column;
     gap: 4px;
+}
+
+
+.card_aues {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_sect {
+    padding-bottom: 60px;
+}
+
+
+
+/* MOBILE ADAPTIVE */
+
+
+
+
+@media (max-width: 1248px) {
+    .quesion_card img {
+        display: none;
+    }
+}
+
+@media (max-width: 1190px) {
+
+    .promo_image {
+        display: none;
+
+    }
+
+
+    
+
+
+}
+
+@media (max-width: 1015px) {
+    .device_cards {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
+
+
+@media (max-width: 991px ) {
+
+    .quesion_card {
+        text-align: center;
+    }
+
+    .numb {
+        display: none;
+    }
+    .addres {
+        display: none;
+    }
+}
+
+@media (max-width: 982px ) {
+    .promo_img {
+        display: none;
+    }
+
+    .tiitle_inf {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 975px) {
+    .discription_text {
+        max-width: 100%;
+       
+        width: 600px;
+        font-size: 25px;
+}
+}
+
+@media (max-width: 762px) {
+    .quesion_card {
+        display: none;
+    }
+
+    .discription_text {
+        max-width: 100%;
+        width: 465px;
+    }
+}
+
+@media (max-width: 712px ) {
+   
 }
