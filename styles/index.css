@@ -83,7 +83,7 @@ main {
 }
 
 .navigation_list {
-
+    list-style: none;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -224,6 +224,7 @@ main {
     align-items: center;
     width: 903px;
     height: 480px;
+    max-width: 903px;
     border-radius: 120px;
     background-color: #e7ecf676;
 }
@@ -243,19 +244,19 @@ main {
 }
 
 .discount_btn {
-   align-items: start;
-    width: 347px;
-    height: 70px;
+    align-items: start;
+    width: 320px;
+    height: 52px;
     border-radius: 90px;
     border: none;
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     transition: 0.3s ease;
-    
     background-color: #113054;
 }
 
 .discount_btn:hover {
+    cursor: pointer;
     background: none;
     color: #113054;
     border: 1px solid #113054;
