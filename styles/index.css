@@ -280,6 +280,10 @@ main {
     padding-top: 145px;
 }
 
+.advantage_card {
+    width: 400px;
+}
+
 
 .advantage_card_tittle {
     font-size: 22px;
@@ -323,12 +327,15 @@ main {
 
 }
 .device_cards {
+    width: 400px;
     display: flex;
+    max-width: 100%;
     
 }
 
 .device_card {
-    width: 677px;
+    width: 400px;
+    max-width: 100%;
 }
 
 .quesion_btn {
