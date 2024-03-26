@@ -132,6 +132,10 @@
     width: 259px;
 }
 
+.help_section {
+    padding-bottom: 73px;
+}
+
 .help_promo {
     display: flex;
     flex-direction: column;
