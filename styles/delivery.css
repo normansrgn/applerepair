@@ -57,3 +57,22 @@
     display: flex;
     justify-content: center;
 }
+
+.delivery_p {
+    font-weight: 300;
+    font-size: 25px;
+    width: 1280px;
+}
+
+.text_main {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text {
+    padding-top: 93px;
+    padding-bottom: 190px;
+}
