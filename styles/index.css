@@ -384,6 +384,8 @@ main {
 }
 
 .footer_inf {
+    border-top: 1px solid;
+
     flex-wrap: wrap;
     padding-top: 82px;
 }
