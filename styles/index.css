@@ -2,6 +2,7 @@
 @import url(./reset.css);
 @import url(./index_adaptive.css);
 @import url(./contacts.css);
+@import url(./delivery.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -72,7 +73,6 @@ main {
     border: none;
     transition: 0.3s ease;
 
-    background-color: #113054;
 }
 
 .btn:hover {
@@ -148,7 +148,8 @@ main {
     border: none;
     color: white;
     font-size: 25px;
-    background-color: #2d2d2d87;
+    background-color: #9fafcd;
+;
 }
 
 .promo_btm:hover {

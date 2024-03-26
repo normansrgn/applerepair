@@ -1,0 +1,59 @@
+.delivery_promo {
+    background-color: #CED8EB;
+    height: 500px;
+}
+
+.delivery_title {
+    padding-top: 52px;
+    font-size: 40px;
+    width: 755px;
+    font-weight: 450;
+}
+
+.delivery_discription {
+    font-size: 20px;
+    width: 650px;
+}
+
+.discription_items {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.delivery_skidka {
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.delivery_btn {
+    font-size: 26px;
+    color: white;
+    margin-top: 25px;
+    width: 297px;
+    height: 63px;
+    border-radius: 90px;
+    border: none;
+    background-color: #9fafcd;
+    transition: 0.1s linear;
+
+}
+
+.delivery_btn:hover {
+    cursor: pointer;
+    /* background:none; */
+    background-color: #231154;
+    border: 1px solid;
+    
+    transition: 0.1s linear;
+}
+
+.delivery_inf {
+    display: flex;
+}
+
+.delivery_logo {
+    display: flex;
+    justify-content: center;
+}
