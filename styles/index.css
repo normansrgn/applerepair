@@ -180,7 +180,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 398px;
-    height: 341px;
+    height: 390px;
     border-radius: 90px;
     background-color: #CED8EB;
 }
@@ -326,7 +326,9 @@ main {
 .device_cards {
     width: 400px;
     display: flex;
+    gap: 20px;
     max-width: 100%;
+    justify-content: space-between;
     
 }
 
