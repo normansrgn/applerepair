@@ -20,3 +20,31 @@
     font-size: 16px;
     width: 1050px;
 }
+
+.main_inf_title_card {
+    display: flex;
+    gap: 50px;
+    padding: 27px;
+    width: 1282px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.main_inf_title_card_none {
+    display: flex;
+    gap: 50px;
+    padding: 27px;
+    width: 1282px;
+    border-radius: 10px;
+    
+}
+
+.inf_price_text {
+    /* width: 540px; */
+    color: white;
+    font-size: 24px;
+}
+
+.price_item_text {
+    font-size: 24px;
+}
