@@ -16,14 +16,15 @@
 
 .price_p {
     text-align: start;
-    padding-top: 10px;
-    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 19px;
     width: 1050px;
 }
 
 .main_inf_title_card {
     display: flex;
-    gap: 50px;
+    gap: 400px;
     padding: 27px;
     width: 1282px;
     border-radius: 10px;
@@ -32,11 +33,13 @@
 
 .main_inf_title_card_none {
     display: flex;
-    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 50px; */
     padding: 27px;
     width: 1282px;
     border-radius: 10px;
-    
+
 }
 
 .inf_price_text {
@@ -47,4 +50,38 @@
 
 .price_item_text {
     font-size: 24px;
+}
+
+.btns_price {
+    text-align: center;
+    font-size: 24px;
+    width: 100px;
+    padding: 15px;
+    border-radius: 90px;
+    background: none;
+    border: 1px solid;
+}
+
+.price_pay_btn {
+    text-align: center;
+    padding: 15px;
+    width: 140px;
+    font-size: 24px;
+    border-radius: 90px;
+    background: none;
+    border: 1px solid;
+    transition: 0.2s linear;
+
+}
+
+.price_pay_btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.1s linear;
+}
+
+.price_btna {
+    display: flex;
+    gap: 100px;
 }
