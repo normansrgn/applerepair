@@ -1,12 +1,13 @@
 .contact_title {
+    padding: 40px;
     font-size: 40px;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     font-weight: 500;
 }
 
 .title_sect {
     background-color: #CED8EB;
-    height: 155px;
+    /* height: 155px; */
     margin-bottom: 30px;
 
 }
