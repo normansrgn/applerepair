@@ -298,7 +298,7 @@ main {
 
 .advantage_inf {
     padding-bottom: 50px;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
 }
 
 .quesion_card {
