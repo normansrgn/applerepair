@@ -1,10 +1,9 @@
 .delivery_promo {
     background-color: #CED8EB;
-    height: 500px;
+   
 }
 
 .delivery_title {
-    padding-top: 52px;
     font-size: 40px;
     width: 755px;
     font-weight: 450;
@@ -50,6 +49,7 @@
 }
 
 .delivery_inf {
+    padding: 40px;
     display: flex;
 }
 
