@@ -100,3 +100,10 @@
     padding: 10px;
     width: 1282px;
 }
+
+.reviwes_card {
+    width: 379px;
+    height: 333px;
+    border-radius: 90px;
+    background-color: #FAF3F3;
+}
