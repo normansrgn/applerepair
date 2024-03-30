@@ -105,4 +105,50 @@
     .main_inf_title_card {
         max-width: 100%;
     }
+    .main_inf_title_card_grey {
+        max-width: 100%;
+    }
+    .main_inf_title_card_none {
+        max-width: 100%;
+    }
 }
+
+@media (max-width:1000px ) {
+    .hid {
+        display: none;
+    }
+}
+
+@media (max-width: 764px) {
+    .price_item_text {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:601px) {
+    .price_btna {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_inf_title_card_grey {
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .main_inf_title_card_none {
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 541px) {
+    .discount_section {
+        display: none;
+    }
+}
+
