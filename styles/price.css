@@ -132,6 +132,9 @@
         justify-content: center;
         align-items: center;
     }
+    .main_inf_cards {
+        margin-right: 20px;
+    }
 
     .main_inf_title_card_grey {
         align-items: center;
