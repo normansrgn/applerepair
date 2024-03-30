@@ -126,6 +126,10 @@
 }
 
 @media(max-width:601px) {
+    .price_pay_btn {
+        display: none;
+    }
+
     .price_btna {
         flex-direction: column;
         gap: 10px;
