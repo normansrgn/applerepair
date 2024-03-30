@@ -5,7 +5,7 @@
 
 .delivery_title {
     font-size: 40px;
-    width: 755px;
+    width: 100%;
     font-weight: 450;
 }
 
@@ -61,7 +61,7 @@
 .delivery_p {
     font-weight: 300;
     font-size: 25px;
-    width: 1280px;
+    width: 100%;
 }
 
 .text_main {
@@ -75,4 +75,39 @@
 .main_text {
     padding-top: 93px;
     padding-bottom: 190px;
+}
+
+@media (max-width: 1384px) {
+    .help_inf {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+}
+
+@media (max-width: 1197px) {
+    .delivery_image {
+        display: none;
+    }
+}
+
+@media (max-width: 744px) {
+    .delivery_title {
+        width: 100%;
+    }
+
+    .delivery_discription {
+        width: 100%;
+    }
+}
+
+@media (max-width: 666px) {
+    .graf {
+        display: none;
+    }
+
+    .help_discription {
+        width: 100%;
+    }
 }
