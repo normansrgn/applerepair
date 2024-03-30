@@ -65,7 +65,7 @@
 }
 
 .icons_section {
-    margin-bottom: 40px;
+    margin-bottom: 150px;
 }
 
 .icons {
@@ -119,6 +119,17 @@
     border: none;
     background-color: #EAEFF4;
 }
+
+.contact_image {
+    width: 315px;
+    height: 258px;
+   }
+
+   .cont_image {
+    width: 400px;
+   }
+
+
 
 .serv_card_tittle {
     padding-top: 18px;

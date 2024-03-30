@@ -28,6 +28,7 @@
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+    width: 90%;
   }
 }
 @media (min-width: 768px) {

@@ -1,0 +1,61 @@
+.reviwe_main {
+    padding-top: 60px;
+
+}
+
+.reviwes_cards {
+    margin-bottom: 13px;
+    justify-content: center;
+    display: flex;
+    gap: 13px;
+    /* flex-wrap: wrap; */
+    
+}
+
+.reviwes_card {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px  30px;
+    width: 379px;
+    height: 333px;
+    border-radius: 90px;
+    background-color: #FAF3F3;
+}
+
+.reviwes_card_image {
+    width: 70px;
+
+}
+
+.name_and_pic {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviw_card_name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rewiwe_card_discri {
+
+    font-size: 20px;
+    width: 311px;
+}
+
+.recent {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.recent_text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rewives_cards_main {
+    padding-bottom: 68px;
+}
