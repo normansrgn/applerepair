@@ -546,7 +546,7 @@ main {
 
 @media (max-width: 576px ) {
     .promo_title {
-        width: 500px;
+       
         padding-top: 62px;
         position: relative;
         font-size: 39px;
@@ -554,10 +554,35 @@ main {
     
     .discription_inf {
         padding-left: 0px;
-        width: 400px;
+        width: 100%;
     }
 
     .promo_btm {
         margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 514px) {
+    .mac_card {
+        width: 100%;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .confedic {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .discount_section {
+        display: none;
+    }
+
+    .advantage_card {
+        width: 100%;
     }
 }
