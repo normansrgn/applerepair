@@ -168,9 +168,11 @@
     padding-top: 20px;
     font-size: 20px;
     width: 500px;
+    height: 67px;
 }
 
 .help_number {
+    text-align: center;
     background: none;
     font-size: 25px;
     width: 304px;
@@ -180,12 +182,12 @@
     border: 1px solid rgb(200, 200, 200);
 }
 
-.help_number:hover {
+/* .help_number:hover {
     cursor: pointer;
     background-color: #113054;
     color: white;
     transition: 0.1s linear;
-}
+} */
 
 .brone_btn {
     font-size: 25px;

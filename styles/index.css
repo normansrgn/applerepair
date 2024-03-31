@@ -371,12 +371,15 @@ main {
 }
 
 .quesion_input {
-    width: 437px;
-    height: 89px;
+    width: 388px;
+    height: 81px;
     border-radius: 90px;
     border: none;
     margin-top: 20px;
+    text-align: start;
+    padding-left: 50px;
 }
+
 
 .quesion_input::placeholder {
     font-size: 25px;
