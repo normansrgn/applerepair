@@ -371,13 +371,13 @@ main {
 }
 
 .quesion_input {
-    width: 388px;
+    width: 437px;
     height: 81px;
     border-radius: 90px;
     border: none;
     margin-top: 20px;
     text-align: start;
-    padding-left: 50px;
+   text-align: center;
 }
 
 
