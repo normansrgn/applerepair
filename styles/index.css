@@ -424,7 +424,7 @@ main {
 .rekvis {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 20px;
 }
 
 .rekvis_discription {
@@ -447,7 +447,7 @@ main {
 .client_discription {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 10px;
 }
 
 
@@ -487,7 +487,7 @@ main {
 
 }
 
-@media (max-width: 1015px) {
+@media (max-width: 1350px) {
     .device_cards {
         flex-direction: column;
         gap: 25px;
@@ -538,7 +538,14 @@ main {
         max-width: 100%;
         width: 465px;
     }
+
+    .footer_inf {
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
+ 
 
 @media (max-width: 578px) {
     .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
