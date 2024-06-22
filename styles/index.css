@@ -5,6 +5,7 @@
 @import url(./delivery.css);
 @import url(./price.css);
 @import url(./reviews.css);
+@import url(./application.css);
 
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -56,6 +57,8 @@ main {
     justify-content: space-around;
 }
 
+
+
 .logo {
     padding: 10px;
     width: 287px;
@@ -77,6 +80,44 @@ main {
     font-size: 20px;
 }
 
+.dropbtn {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 21px;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #dadada; border-radius: 10px;}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+
 .btn {
     width: 228px;
     height: 58px;
@@ -86,7 +127,7 @@ main {
     border-radius: 90px;
     border: none;
     transition: 0.3s ease;
-    background-color: #9fafcd;
+    background-color: #113054;
 }
 
 .btn:hover {
