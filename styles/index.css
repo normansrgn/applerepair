@@ -7,644 +7,610 @@
 @import url(./reviews.css);
 @import url(./application.css);
 
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    font-family: inherit;
+  font-family: inherit;
 }
 
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    animation: fade 0.4s;
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  animation: fade 0.4s;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 @keyframes fade {
-    from {
-        opacity: 0.2;
-    }
+  from {
+    opacity: 0.2;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .url {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .header_high {
-    border-bottom: 1px solid black;
-
+  border-bottom: 1px solid black;
 }
 
 .header_flex {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 
-
-
 .logo {
-    padding: 10px;
-    width: 287px;
-    height: 107px;
+  padding: 10px;
+  width: 287px;
+  height: 107px;
 }
 
 .service_number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .addres {
-    width: 250px;
-    font-size: 32px;
+  width: 250px;
+  font-size: 32px;
 }
 
 .service_numb {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .dropbtn {
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    padding: 16px;
-    font-size: 21px;
-    font-weight: 600;
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin-top: 10px;
-    min-width: 160px;
-    z-index: 1;
-  }
-  
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 21px;
+  font-weight: 600;
+  border: none;
+}
 
-  .dropdown-content a {
-    display: block;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-  }
-  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-  .dropdown-content a:hover {background-color: #dadada; border-radius: 10px;}
-  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  min-width: 160px;
+  z-index: 1;
+}
 
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a {
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #dadada;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .btn {
-    width: 228px;
-    height: 58px;
-    font-size: 19px;
-    text-align: center;
-    color: white;
-    border-radius: 90px;
-    border: none;
-    transition: 0.3s ease;
-    background-color: #113054;
+  width: 228px;
+  height: 58px;
+  font-size: 19px;
+  text-align: center;
+  color: white;
+  border-radius: 90px;
+  border: none;
+  transition: 0.3s ease;
+  background-color: #113054;
 }
 
 .btn:hover {
-    background: none;
-    transition: 0.2s ease;
-    color: #113054;
-    border: 1px solid #113054;
-    cursor: pointer;
+  background: none;
+  transition: 0.2s ease;
+  color: #113054;
+  border: 1px solid #113054;
+  cursor: pointer;
 }
 
 .navigation_list {
-    flex-wrap: wrap;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .navigation_item {
-    color: black;
-    font-size: 21px;
-    font-weight: 600;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
 }
 
 .header_mini {
-    padding: 10px;
+  padding: 10px;
 }
 
 .promo_section {
-    width: 100%;
-    height: 522px;
-    background-color: #CED8EB;
+  width: 100%;
+  height: 522px;
+  background-color: #ced8eb;
 }
 
 .promo_inf {
-    display: flex;
+  display: flex;
 }
 
 .promo_img {
-    position: absolute;
-    padding: 10px;
+  position: absolute;
+  padding: 10px;
 }
 
 .tiitle_inf {
-    padding-left: 360px;
-
+  padding-left: 360px;
 }
 
-
-
 .discription_inf {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-top: 10px;
-    padding-left: 120px;
-    font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+  padding-left: 120px;
+  font-size: 25px;
 }
 
 .promo_title {
-    padding-top: 62px;
-    position: relative;
-    font-size: 64px;
+  padding-top: 62px;
+  position: relative;
+  font-size: 64px;
 }
 
 .promo_btm {
-    margin-top: 30px;
-    margin-left: 190px;
-    width: 297px;
-    height: 63px;
-    border-radius: 90px;
-    transition: 0.2s ease;
-    border: none;
-    color: white;
-    font-size: 25px;
-    background-color: #9fafcd;
-;
+  margin-top: 30px;
+  margin-left: 190px;
+  width: 297px;
+  height: 63px;
+  border-radius: 90px;
+  transition: 0.2s ease;
+  border: none;
+  color: white;
+  font-size: 25px;
+  background-color: #9fafcd;
 }
 
 .promo_btm:hover {
-    background: none;
-    transition: 0.2s ease;
-    color: black;
-    cursor: pointer;
-    border: 1px solid black;
+  background: none;
+  transition: 0.2s ease;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 .promo_image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .device_tittle {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    text-align: center;
-    font-size: 35px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 35px;
 }
 
 .slide_card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 398px;
-    height: 390px;
-    border-radius: 90px;
-    background-color: #CED8EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 398px;
+  height: 222px;
+  border-radius: 90px;
+  background-color: #ced8eb;
 }
 
 .card_title {
-    text-align: center;
-    font-size: 35px;
-    font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .promo_cards {
-    flex-wrap: wrap;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 57px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 57px;
 }
 
 .mac_card {
-    width: 528px;
+  /* width: 528px; */
 }
 
 .apple_watch {
-    width: 342px;
+  /* width: 342px; */
 }
 
 .discount_section {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    background: center;
-    background-repeat: no-repeat;
-    background-image: url(../heder_img/Blend\ Group\ 2.svg);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background: center;
+  background-repeat: no-repeat;
+  background-image: url(../heder_img/Blend\ Group\ 2.svg);
 }
 
 .discount_card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 903px;
-    height: 383px;
-    max-width: 100%;
-    border-radius: 78px;
-    background-color: #e7ecf676;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 903px;
+  height: 383px;
+  max-width: 100%;
+  border-radius: 78px;
+  background-color: #e7ecf676;
 }
 
 .card_discount {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .dicount_card_title {
-    font-size: 128px;
-    font-weight: 500;
-    color: #231154;
+  font-size: 128px;
+  font-weight: 500;
+  color: #231154;
 }
 
 .discription_text {
-    /* padding-left: 68px;
+  /* padding-left: 68px;
     padding-right: 68px; */
-    width: 849px;
-    font-size: 32px;
-    text-align: start;
+  width: 849px;
+  font-size: 32px;
+  text-align: start;
 }
 
 .discount_btn {
-    align-items: start;
-    width: 320px;
-    height: 52px;
-    border-radius: 90px;
-    border: none;
-    color: white;
-    font-size: 28px;
-    transition: 0.3s ease;
-    background-color: #113054;
+  align-items: start;
+  width: 320px;
+  height: 52px;
+  border-radius: 90px;
+  border: none;
+  color: white;
+  font-size: 28px;
+  transition: 0.3s ease;
+  background-color: #113054;
 }
 
 .discount_btn:hover {
-    cursor: pointer;
-    background: none;
-    color: #113054;
-    border: 1px solid #113054;
-    transition: 0.3s ease;
+  cursor: pointer;
+  background: none;
+  color: #113054;
+  border: 1px solid #113054;
+  transition: 0.3s ease;
 }
 
 .inside_inf {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .advantages {
-   
-    padding-top: 145px;
+  padding-top: 145px;
 }
 
 .advantage_card {
-    width: 400px;
+  width: 400px;
 }
 
-
 .advantage_card_tittle {
-    font-size: 22px;
-    font-weight: 500;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .advantage_discription {
-    font-size: 19px;
-    width: 300px;
-    font-weight: 300;
-
+  font-size: 19px;
+  width: 300px;
+  font-weight: 300;
 }
 
 .advantage_inf {
-    padding-bottom: 50px;
-    /* border-bottom: 1px solid; */
+  padding-bottom: 50px;
+  /* border-bottom: 1px solid; */
 }
 
 .quesion_card {
-   max-width: 100%;
-    display: flex;
-    margin-top: 50px;
-    padding: 78px 43px 0 43px;
-    width: 1200px;
-    height: 600px;
-    border-radius: 90px;
+  max-width: 100%;
+  display: flex;
+  margin-top: 50px;
+  padding: 78px 43px 0 43px;
+  width: 1200px;
+  height: 600px;
+  border-radius: 90px;
 
-    background-color: #CED8EB;
+  background-color: #ced8eb;
 }
 
 .quesion_tittle {
-    margin-bottom: 20px;
-    font-size: 52px;
-    color: black;
+  margin-bottom: 20px;
+  font-size: 52px;
+  color: black;
 }
 
 .quesion_discription {
-    font-size: 32px;
-    width: 700px;
-    font-weight: 300;
-
+  font-size: 32px;
+  width: 700px;
+  font-weight: 300;
 }
 .device_cards {
-    width: 400px;
-    display: flex;
-    gap: 20px;
-    max-width: 100%;
-    justify-content: space-between;
-    
+  width: 400px;
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+  justify-content: space-between;
 }
 
 .device_card {
-    width: 400px;
-    max-width: 100%;
+  width: 400px;
+  max-width: 100%;
 }
 
 .quesion_btn {
-    margin-top: 70px;
-    width: 437px;
-    height: 89px;
-    border-radius: 90px;
-    border: none;
-    font-size: 30px;
-    background-color: white;
-    transition: 0.3s ease;
-
+  margin-top: 70px;
+  width: 437px;
+  height: 89px;
+  border-radius: 90px;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  transition: 0.3s ease;
 }
 
 .quesion_btn:hover {
-    cursor: pointer;
-    background-color: #113054;
-    color: white;
-    transition: 0.3s ease;
+  cursor: pointer;
+  background-color: #113054;
+  color: white;
+  transition: 0.3s ease;
 }
 
 .quesion_input {
-    width: 437px;
-    height: 81px;
-    border-radius: 90px;
-    border: none;
-    margin-top: 20px;
-    text-align: start;
-   text-align: center;
+  width: 437px;
+  height: 81px;
+  border-radius: 90px;
+  border: none;
+  margin-top: 20px;
+  text-align: start;
+  text-align: center;
 }
 
-
 .quesion_input::placeholder {
-    font-size: 25px;
-
+  font-size: 25px;
 }
 
 .footer_inf {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .foot_inf_section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .confedic {
-    font-size: 18px;
-    width: 450px;
-    font-weight: 500;
+  font-size: 18px;
+  width: 450px;
+  font-weight: 500;
 }
 
 .footer_inf {
-    border-top: 1px solid;
+  border-top: 1px solid;
 
-    flex-wrap: wrap;
-    padding-top: 82px;
+  flex-wrap: wrap;
+  padding-top: 82px;
 }
 
 .foot_adres {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-
 .rekvis_title {
-    font-size: 25px;
-    font-weight: 300;
-   
+  font-size: 25px;
+  font-weight: 300;
 }
 
 .rekvis {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .rekvis_discription {
-    width: 287px;
-    font-size: 20px;
-    font-weight: 500;
+  width: 287px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .foot_inf_section span {
-    font-weight: 550;
-    font-size: 25px;
+  font-weight: 550;
+  font-size: 25px;
 }
 
 .clients_lis {
-    font-size: 21px;
-    font-weight: 450;
-
+  font-size: 21px;
+  font-weight: 450;
 }
 
 .client_discription {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-
 .card_aues {
-    display: flex;
-    justify-content: center;
+  display: none;
+  justify-content: center;
 }
 
 .footer_sect {
-    padding-top: 100px;
-    padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
-
-
 
 /* MOBILE ADAPTIVE */
 
-
-
-
 @media (max-width: 1248px) {
-    .quesion_card img {
-        display: none;
-    }
+  .quesion_card img {
+    display: none;
+  }
 }
 
 @media (max-width: 1190px) {
-
-    .promo_image {
-        display: none;
-
-    }
-
-
-    
-
-
+  .promo_image {
+    display: none;
+  }
 }
 
 @media (max-width: 1350px) {
-    .device_cards {
-        flex-direction: column;
-        gap: 25px;
-    }
+  .device_cards {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 
+@media (max-width: 991px) {
+  .quesion_card {
+    text-align: center;
+  }
 
-
-@media (max-width: 991px ) {
-
-    .quesion_card {
-        text-align: center;
-    }
-
-    .numb {
-        display: none;
-    }
-    .addres {
-        display: none;
-    }
+  .numb {
+    display: none;
+  }
+  .addres {
+    display: none;
+  }
 }
 
-@media (max-width: 982px ) {
-    .promo_img {
-        display: none;
-    }
+@media (max-width: 982px) {
+  .promo_img {
+    display: none;
+  }
 
-    .tiitle_inf {
-        padding-left: 0px;
-    }
+  .tiitle_inf {
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 975px) {
-    .discription_text {
-        max-width: 100%;
-       
-        width: 600px;
-        font-size: 25px;
-}
+  .discription_text {
+    max-width: 100%;
+
+    width: 600px;
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 762px) {
-    .quesion_card {
-        display: none;
-    }
+  .quesion_card {
+    display: none;
+  }
 
-    .discription_text {
-        max-width: 100%;
-        width: 465px;
-    }
+  .discription_text {
+    max-width: 100%;
+    width: 465px;
+  }
 
-    .footer_inf {
-        flex-direction: column;
-        gap: 20px;
-    }
-
+  .footer_inf {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
- 
 
 @media (max-width: 578px) {
-    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
-        
-        width: 90%;
-    }
+  .container,
+  .container-fluid,
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    width: 90%;
+  }
 }
 
-@media (max-width: 576px ) {
-    .promo_title {
-       
-        padding-top: 62px;
-        position: relative;
-        font-size: 39px;
-    }
-    
-    .discription_inf {
-        padding-left: 0px;
-        width: 100%;
-    }
+@media (max-width: 576px) {
+  .promo_title {
+    padding-top: 62px;
+    position: relative;
+    font-size: 39px;
+  }
 
-    .promo_btm {
-        margin-left: 0px;
-    }
+  .discription_inf {
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .promo_btm {
+    margin-left: 0px;
+  }
 }
-
 
 @media (max-width: 514px) {
-    .mac_card {
-        width: 100%;
-    }
+  .mac_card {
+    width: 100%;
+  }
 
-    .btn {
-        display: none;
-    }
+  .btn {
+    display: none;
+  }
 
-    .confedic {
-        width: 100%;
-    }
+  .confedic {
+    width: 100%;
+  }
 
-    .navigation_list {
-        flex-direction: column;
-        align-items: center;
-    }
+  .navigation_list {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 450px) {
-    .discount_section {
-        display: none;
-    }
+  .discount_section {
+    display: none;
+  }
 
-    .advantage_card {
-        width: 100%;
-    }
+  .advantage_card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 375px) {
-    .slide_card {
-        width: 100%;
-    }
+  .slide_card {
+    width: 100%;
+  }
 }
